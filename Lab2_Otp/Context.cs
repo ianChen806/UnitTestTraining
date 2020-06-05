@@ -9,8 +9,8 @@ namespace Lab2_Otp
         static Context()
         {
             profiles = new Dictionary<string, string>();
-            profiles.Add("joey", "91");
-            profiles.Add("mei", "99");
+            profiles.Add("me", "123");
+            profiles.Add("you", "666");
         }
 
         public static string GetPassword(string key)

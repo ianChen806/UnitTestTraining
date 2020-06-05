@@ -6,11 +6,6 @@ namespace Lab2_Otp_2
     public class AuthenticationServiceTest
     {
         [TestMethod]
-        public void IsValidTest_只有驗證Authentication合法()
-        {
-        }
-
-        [TestMethod]
         public void IsValidTest_只有驗證Authentication非法()
         {
         }
