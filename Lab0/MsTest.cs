@@ -8,11 +8,6 @@ namespace Lab0
         [TestMethod]
         public void AddTest()
         {
-            var target = new Calculation();
-
-            var actual = target.Add(1, 2);
-
-            Assert.AreEqual(3, actual);
         }
     }
 }
