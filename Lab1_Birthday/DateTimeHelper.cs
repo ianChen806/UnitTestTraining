@@ -7,8 +7,7 @@ namespace Lab1_Birthday
         public string IsBirthday()
         {
             var today = DateTime.Today;
-            var now = DateTime.Now;
-            if (today.Month == now.Month && today.Day == now.Day)
+            if (today.Month == 6 && today.Day == 10)
             {
                 return "Is Birthday!";
             }
